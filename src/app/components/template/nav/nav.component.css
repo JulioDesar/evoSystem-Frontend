@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container img {
+    padding: 40px;
+    cursor: pointer;
+}
+
+.sidenav {
+    background-color: #F5F8FF;
+    width: 300px;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #0086C9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 13, 0.15);
+}
